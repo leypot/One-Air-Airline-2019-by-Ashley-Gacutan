@@ -1,0 +1,168 @@
+ a{
+	text-decoration:none;
+	list-sytle: none;
+}
+
+
+body {
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	padding: 0px;
+	font-family: cursive;
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-header{
+	text-align: center;
+}
+
+.destination{
+	height: 70vh;
+	border: 3.7px black solid;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+.plane{
+	height: 70vh;
+	background-image: url(../images/airplane.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 20px;
+	padding: 5px;
+	margin:	5px;
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+li {
+	padding: 10px;
+	border: 2px black solid;
+	background:SandyBrown;
+	text-align: center;
+	color: white;
+	font-family: Trebuchet MS;
+	list-style: none;
+	font-size: 15px;
+	transition: all .2s ease-out;
+}
+
+li:hover {
+	background-color: #ffa500;
+	color: black;
+	font-size: 15px;
+}
+	
+.booking-form-box{
+	max-width:350;
+	border:2px black solid;
+	margin: 10px;
+	background-color: SandyBrown;
+}
+
+.radio-btn{
+	margin: 0 20px;
+}
+	
+.radio-btn .btn{
+	margin: 20px 10px 20px 0;
+}
+
+.radio-btn .btn::after{
+	content:'';
+	height: 15px;
+	width: 15px;
+	top: -2px;
+	left: -1px;
+	background-color: #fff;
+	position: relative;
+	display: inline-block;
+	border: 3px #fff solid;
+	border-radius: 50%;
+}
+	
+.radio-btn .btn:checked::after{
+	content: '';
+	background-color: #000;
+	transition: 0,5s
+}
+
+.radio-btn span{
+	color: black;
+	margin-right: 5px;
+	font-size: 12px;
+}
+	
+.booking-form{
+	padding: 0 20px 20px;
+}
+
+.booking-form label{
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #fff;
+}
+
+input::placeholder{
+	color: fff !important;
+}
+	
+.input-grp{
+	width: 151px;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+}
+
+.form-color{
+	font-size: 12px!important;
+	border-radius: 0!important;
+	color: #fff!important;
+	background: transparent!important;
+	box-shadow: none!important;
+}
+	
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.select-date::-webkit-calendar-picker-indicator{
+	background: transparent!important;
+}
+
+.custom-select{
+	color: grey!important;
+	font-size: 12px!important;
+	border: 5px white!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	background: transparennt!important;
+}
+
+.custom-select option{
+	color: #333;
+}
+
+.footer{
+	border: 2px transparent solid;
+	text-align: center;
+	margin:  20px;
+}
+
+
+	
+	
