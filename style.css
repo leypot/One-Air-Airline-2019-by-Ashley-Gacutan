@@ -1,9 +1,3 @@
- a{
-	text-decoration:none;
-	list-sytle: none;
-}
-
-
 body {
 	font-size: 15px;
 	text-align: center;
@@ -14,41 +8,30 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	height:222vh;
+}
+
+ a{
+	text-decoration:none;
 }
 
 .main-header{
 	text-align: center;
 }
 
-.destination{
-	height: 70vh;
-	border: 3.7px black solid;
-	margin-bottom: 10px;
-	overflow: hidden;
-	position: relative;
-}
-
-.plane{
-	height: 70vh;
-	background-image: url(../images/airplane.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 ul {
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 	grid-gap: 20px;
-	padding: 5px;
-	margin:	5px;
+	padding: 0px;
+	margin:	0px;
 	text-align: center;
-	margin-bottom: 2px;
+	margin-bottom: 10px;
 }
 
 li {
 	padding: 10px;
-	border: 2px black solid;
+	border: 2px #8b8989 solid;
 	background:SandyBrown;
 	text-align: center;
 	color: white;
@@ -56,6 +39,7 @@ li {
 	list-style: none;
 	font-size: 15px;
 	transition: all .2s ease-out;
+
 }
 
 li:hover {
@@ -63,106 +47,108 @@ li:hover {
 	color: black;
 	font-size: 15px;
 }
-	
-.booking-form-box{
-	max-width:350;
-	border:2px black solid;
+
+.ashley{
+    display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 20px;
+	height: 50v;
+	border: 2px black solid;
 	margin: 10px;
-	background-color: SandyBrown;
-}
-
-.radio-btn{
-	margin: 0 20px;
-}
 	
-.radio-btn .btn{
-	margin: 20px 10px 20px 0;
 }
 
-.radio-btn .btn::after{
-	content:'';
-	height: 15px;
-	width: 15px;
-	top: -2px;
-	left: -1px;
-	background-color: #fff;
-	position: relative;
-	display: inline-block;
-	border: 3px #fff solid;
-	border-radius: 50%;
-}
-	
-.radio-btn .btn:checked::after{
-	content: '';
-	background-color: #000;
-	transition: 0,5s
-}
-
-.radio-btn span{
-	color: black;
-	margin-right: 5px;
-	font-size: 12px;
-}
-	
-.booking-form{
-	padding: 0 20px 20px;
-}
-
-.booking-form label{
-	margin-bottom: 5px;
-	margin-top: 10px;
-	font-size: 12px;
-	color: #fff;
-}
-
-input::placeholder{
-	color: fff !important;
-}
-	
-.input-grp{
-	width: 151px;
-	display: inline-block;
+.image{
+	height: 40vh;
 	margin: 10px;
+	background-image: url(../logo.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.article {
+
+}
+
+p {
+	font-size: 30px;
+}
+
+.description{
+	height:50vh;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid:gap: 10px;
+	margin: 0px 10px 0px 10px;
+}
+
+.img{
+	height: 50vh;
+	margin: 10px;
+	background-image: url(../images/ME.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.me{
+	border: 2px black solid;
+	grid-gap: 5px;
 	padding: 10px;
+	text-align: justify;
+	background-color: SandyBrown;
+	margin: 5px;
 }
 
-.form-color{
-	font-size: 12px!important;
-	border-radius: 0!important;
-	color: #fff!important;
-	background: transparent!important;
-	box-shadow: none!important;
-}
-	
-.select-date::-webkit-inner-spin-button,
-.select-date::-webkit-outer-spin-button{
-	-webkit-appearance: none;
-	margin: 0;
+.me p{
+	font-size:22px;
 }
 
-.select-date::-webkit-calendar-picker-indicator{
-	background: transparent!important;
+.img1{
+	height: 50vh;
+	margin: 10px;
+	background-image: url(../images/staff.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.custom-select{
-	color: grey!important;
-	font-size: 12px!important;
-	border: 5px white!important;
-	box-shadow: none!important;
-	border-radius: 0!important;
-	background: transparennt!important;
+.staff{
+	border: 2px black solid;
+	grid-gap: 5px;
+	padding: 10px;
+	text-align: justify;
+	background-color: SandyBrown;
+	margin: 5px;
+	text-align: center;
 }
 
-.custom-select option{
-	color: #333;
+.img2{
+	height: 50vh;
+	margin: 10px;
+	background-image: url(../images/aircraft.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.aircraft{
+	border: 2px black solid;
+	grid-gap: 5px;
+	padding: 10px;
+	text-align: justify;
+	background-color: SandyBrown;
+	margin: 5px;
+	text-align: center;
 }
 
 .footer{
 	border: 2px transparent solid;
 	text-align: center;
 	margin:  20px;
+	margin-top: 570px;
 }
 
 
-	
-	
+
+
