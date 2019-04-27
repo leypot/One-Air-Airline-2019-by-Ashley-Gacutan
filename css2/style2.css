@@ -1,0 +1,185 @@
+body {
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	padding: 0px;
+	font-family: cursive;
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+ a{
+	text-decoration:none;
+}
+
+.main-header{
+	text-align: center;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 20px;
+	padding: 0px;
+	margin:	0px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+li {
+	padding: 10px;
+	border: 2px #8b8989 solid;
+	background:SandyBrown;
+	text-align: center;
+	color: white;
+	font-family: Trebuchet MS;
+	list-style: none;
+	font-size: 15px;
+	transition: all .2s ease-out;
+
+}
+
+li:hover {
+	background-color: #ffa500;
+	color: black;
+	font-size: 15px;
+}
+
+.hotel{
+    display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 20px;
+	height: 50v;
+	border: 2px black solid;
+	margin: 10px;
+	
+}
+
+.image{
+	height: 40vh;
+	margin: 10px;
+	background-image: url(../hotelS/CaD.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.article {
+
+}
+
+p {
+	font-size: 30px;
+}
+
+.hotel{
+    display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 20px;
+	height: 50v;
+	border: 2px black solid;
+	margin: 10px;
+	
+}
+
+.image2{
+	height: 40vh;
+	margin: 10px;
+	background-image: url(../hotels/Log.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.article {
+
+}
+
+p {
+	font-size: 30px;
+}
+
+.hotel{
+    display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 20px;
+	height: 50v;
+	border: 2px black solid;
+	margin: 10px;
+	
+}
+
+.image3{
+	height: 40vh;
+	margin: 10px;
+	background-image: url(../hotels/Eden.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.article {
+
+}
+
+p {
+	font-size: 30px;
+}
+
+.hotel{
+    display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 20px;
+	height: 50v;
+	border: 2px black solid;
+	margin: 10px;
+	
+}
+
+.image4{
+	height: 40vh;
+	margin: 10px;
+	background-image: url(../hotels/Villa.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.article {
+
+}
+
+p {
+	font-size: 30px;
+}
+
+.hotel{
+    display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 20px;
+	height: 50v;
+	border: 2px black solid;
+	margin: 10px;
+	
+}
+
+.image5{
+	height: 40vh;
+	margin: 10px;
+	background-image: url(../hotels/Hotel.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.article {
+
+}
+
+p {
+	font-size: 30px;
+}
+
+.footer{
+	border: 2px transparent solid;
+	text-align: center;
+	margin:  20px;
+}
+

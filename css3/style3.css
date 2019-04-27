@@ -1,0 +1,376 @@
+body {
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	padding: 0px;
+	font-family: cursive;
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+ a{
+	text-decoration:none;
+}
+
+.main-header{
+	text-align: center;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 20px;
+	padding: 0px;
+	margin:	0px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+li {
+	padding: 10px;
+	border: 2px #8b8989 solid;
+	background:SandyBrown;
+	text-align: center;
+	color: white;
+	font-family: Trebuchet MS;
+	list-style: none;
+	font-size: 15px;
+	transition: all .2s ease-out;
+
+}
+
+li:hover {
+	background-color: #ffa500;
+	color: black;
+	font-size: 15px;
+}
+
+.choice{
+    display: grid;
+	height: 70vh;
+	border: 2px black solid;
+	margin: 2px;
+	margin-bottom: 10px;
+}
+
+.image{
+	height: 70vh;
+	background-image: url(../images/cooper.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.rental{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 20px; 
+	text-align: center;
+	height: 55vh;
+	margin: 2px;
+}
+
+.image1{
+	height: 50vh;
+	background-image: url(../cars/2013.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+}
+
+.rental p{
+	color: white;
+	text-align: center;
+	border: 2px transparent solid;
+	font-size: 20px;
+	padding: 0 0 225px 0;
+	font-style: Verdana;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	transition: all .2s ease-out;
+	background-position: center;
+}
+
+.button:hover {
+	background-color:white;
+	color:	black;
+}
+
+.image2{
+	height: 50vh;
+	background-image: url(../cars/2016.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+}
+
+.rental p{
+	color: white;
+	text-align: center;
+	border: 2px transparent solid;
+	font-size: 20px;
+	padding: 0 0 225px 0;
+	font-style: Verdana;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	transition: all .2s ease-out;
+	background-position: center;
+}
+
+.button:hover {
+	background-color:white;
+	color:	black;
+}
+
+.image3{
+	height: 50vh;
+	background-image: url(../cars/2017.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+}
+
+.rental p{
+	color: white;
+	text-align: center;
+	border: 2px transparent solid;
+	font-size: 20px;
+	padding: 0 0 225px 0;
+	font-style: Verdana;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	transition: all .2s ease-out;
+	background-position: center;
+}
+
+.button:hover {
+	background-color:white;
+	color:	black;
+}
+
+.rental1{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 20px; 
+	text-align: center;
+	height: 55vh;
+	margin: 2px;
+}
+
+.image4{
+	height: 50vh;
+	background-image: url(../cars/20171.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+}
+
+.rental1 p{
+	color: white;
+	text-align: center;
+	border: 2px transparent solid;
+	font-size: 20px;
+	padding: 0 0 225px 0;
+	font-style: Verdana;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	transition: all .2s ease-out;
+	background-position: center;
+}
+
+.button:hover {
+	background-color:white;
+	color:	black;
+}
+
+.image5{
+	height: 50vh;
+	background-image: url(../cars/20172.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+}
+
+.rental1 p{
+	color: white;
+	text-align: center;
+	border: 2px transparent solid;
+	font-size: 20px;
+	padding: 0 0 225px 0;
+	font-style: Verdana;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	transition: all .2s ease-out;
+	background-position: center;
+}
+
+.button:hover {
+	background-color:white;
+	color:	black;
+}
+
+.image6{
+	height: 50vh;
+	background-image: url(../cars/Aston.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+}
+
+.rental1 p{
+	color: white;
+	text-align: center;
+	border: 2px transparent solid;
+	font-size: 20px;
+	padding: 0 0 225px 0;
+	font-style: Verdana;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	transition: all .2s ease-out;
+	background-position: center;
+}
+
+.button:hover {
+	background-color:white;
+	color:	black;
+}
+
+.rental2{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 20px; 
+	text-align: center;
+	height: 55vh;
+	margin: 2px;
+}
+
+.image7{
+	height: 50vh;
+	background-image: url(../cars/Dodge.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+}
+
+.rental2 p{
+	color: white;
+	text-align: center;
+	border: 2px transparent solid;
+	font-size: 20px;
+	padding: 0 0 225px 0;
+	font-style: Verdana;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	transition: all .2s ease-out;
+	background-position: center;
+}
+
+.button:hover {
+	background-color:white;
+	color:	black;
+}
+
+.image8{
+	height: 50vh;
+	background-image: url(../cars/McLaren.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+}
+
+.rental2 p{
+	color: white;
+	text-align: center;
+	border: 2px transparent solid;
+	font-size: 20px;
+	padding: 0 0 225px 0;
+	font-style: Verdana;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	transition: all .2s ease-out;
+	background-position: center;
+}
+
+.button:hover {
+	background-color:white;
+	color:	black;
+}
+
+.image9{
+	height: 50vh;
+	background-image: url(../cars/Ferrari.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px black solid;
+}
+
+.rental2 p{
+	color: white;
+	text-align: center;
+	border: 2px transparent solid;
+	font-size: 20px;
+	padding: 0 0 225px 0;
+	font-style: Verdana;
+}
+
+.button {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	transition: all .2s ease-out;
+	background-position: center;
+}
+
+.button:hover {
+	background-color:white;
+	color:	black;
+}
+
+.footer{
+	border: 2px transparent solid;
+	text-align: center;
+	margin:  20px;
+}

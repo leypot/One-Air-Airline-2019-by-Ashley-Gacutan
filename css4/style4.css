@@ -1,0 +1,154 @@
+body {
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	padding: 0px;
+	font-family: cursive;
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:222vh;
+}
+
+ a{
+	text-decoration:none;
+}
+
+.main-header{
+	text-align: center;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 20px;
+	padding: 0px;
+	margin:	0px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+li {
+	padding: 10px;
+	border: 2px #8b8989 solid;
+	background:SandyBrown;
+	text-align: center;
+	color: white;
+	font-family: Trebuchet MS;
+	list-style: none;
+	font-size: 15px;
+	transition: all .2s ease-out;
+
+}
+
+li:hover {
+	background-color: #ffa500;
+	color: black;
+	font-size: 15px;
+}
+
+.ashley{
+    display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 20px;
+	height: 50v;
+	border: 2px black solid;
+	margin: 10px;
+	
+}
+
+.image{
+	height: 40vh;
+	margin: 10px;
+	background-image: url(../logo.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.article {
+
+}
+
+p {
+	font-size: 30px;
+}
+
+.description{
+	height:50vh;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid:gap: 10px;
+	margin: 0px 10px 0px 10px;
+}
+
+.img{
+	height: 50vh;
+	margin: 10px;
+	background-image: url(../images/ME.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.me{
+	border: 2px black solid;
+	grid-gap: 5px;
+	padding: 10px;
+	text-align: justify;
+	background-color: SandyBrown;
+	margin: 5px;
+}
+
+.me p{
+	font-size:22px;
+}
+
+.img1{
+	height: 50vh;
+	margin: 10px;
+	background-image: url(../images/staff.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.staff{
+	border: 2px black solid;
+	grid-gap: 5px;
+	padding: 10px;
+	text-align: justify;
+	background-color: SandyBrown;
+	margin: 5px;
+	text-align: center;
+}
+
+.img2{
+	height: 50vh;
+	margin: 10px;
+	background-image: url(../images/aircraft.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.aircraft{
+	border: 2px black solid;
+	grid-gap: 5px;
+	padding: 10px;
+	text-align: justify;
+	background-color: SandyBrown;
+	margin: 5px;
+	text-align: center;
+}
+
+.footer{
+	border: 2px transparent solid;
+	text-align: center;
+	margin:  20px;
+	margin-top: 570px;
+}
+
+
+
+
